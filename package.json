@@ -16,5 +16,8 @@
     "cypress": "^13.14.1",
     "esbuild": "^0.23.1",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }

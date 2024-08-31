@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      cypress-file-upload:
+        specifier: ^5.0.8
+        version: 5.0.8(cypress@13.14.1)
     devDependencies:
       '@badeball/cypress-cucumber-preprocessor':
         specifier: ^20.1.2
@@ -713,6 +717,12 @@ packages:
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
+
+  cypress-file-upload@5.0.8:
+    resolution: {integrity: sha512-+8VzNabRk3zG6x8f8BWArF/xA/W0VK4IZNx3MV0jFWrJS/qKn8eHfa5nU73P9fOQAgwHFJx7zjg4lwOnljMO8g==}
+    engines: {node: '>=8.2.1'}
+    peerDependencies:
+      cypress: '>3.0.0'
 
   cypress@13.14.1:
     resolution: {integrity: sha512-Wo+byPmjps66hACEH5udhXINEiN3qS3jWNGRzJOjrRJF3D0+YrcP2LVB1T7oYaVQM/S+eanqEvBWYc8cf7Vcbg==}
@@ -2389,6 +2399,10 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  cypress-file-upload@5.0.8(cypress@13.14.1):
+    dependencies:
+      cypress: 13.14.1
 
   cypress@13.14.1:
     dependencies:
