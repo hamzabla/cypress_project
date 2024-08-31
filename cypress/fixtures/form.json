@@ -1,0 +1,11 @@
+{
+    "form_title": "Valid Title",
+    "form_description": "A valid description for the document",
+    "form_category": "Valid Category",
+    "dynamic_elements": {
+        "contract": {
+            "expiration_date": "2025-12-31",
+            "value": "10000"
+        }
+    }
+}
